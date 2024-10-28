@@ -20,7 +20,7 @@ function AddProduct({ addProduct }) {
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Product Name"
                 required
-                className="border border-gray-300 p-2 rounded"
+                className="border border-gray-300 p-2 rounded text-blue-2000"
             />
             <input
                 type="number"
