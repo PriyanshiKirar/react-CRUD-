@@ -20,7 +20,7 @@ function AddProduct({ addProduct }) {
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Product Name"
                 required
-                className="border border-gray-300 p-2 rounded text-blue-2000"
+                className="border border-gray-300 p-2 rounded-md text-blue-2000"
             />
             <input
                 type="number"
@@ -28,7 +28,7 @@ function AddProduct({ addProduct }) {
                 onChange={(e) => setPrice(e.target.value)}
                 placeholder="Product Price"
                 required
-                className="border border-gray-300 p-2 rounded"
+                className="border border-gray-300 p-2 rounded-md"
             />
             <button type="submit" className="bg-blue-500 text-white p-2 rounded-md  mx-auto w-[10vw]">
                 Add Product
