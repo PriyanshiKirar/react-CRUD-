@@ -24,7 +24,7 @@ function ProductItem({ product, updateProduct, deleteProduct }) {
                         type="number"
                         value={price}
                         onChange={(e) => setPrice(e.target.value)}
-                        className="border border-gray-300 p-1 rounded ml-2 outline-none"
+                        className="border border-gray-300 p-1 rounded ml-2 outline-none text-1xl text-blue-300"
                     />
                     <button
                         onClick={handleUpdate}
